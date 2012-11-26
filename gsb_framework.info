@@ -36,4 +36,5 @@ regions[main_bottom] = Main: Bottom
 regions[page_bottom] = Page: Bottom
 
 plugins[panels][layouts] = layouts
+scripts[] = js/jquery.once.js
 

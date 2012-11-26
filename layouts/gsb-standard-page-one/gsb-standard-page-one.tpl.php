@@ -17,26 +17,28 @@
               <div id="content-upper-main-1" class="span8">
                 <?php print $content['contentuppermain1']; ?>
               </div>
-              <div id="content-upper-sidebar" class="span4">
+              <div id="content-upper-sidebar" class="span4 float-right">
                 <?php print $content['contentuppersidebar']; ?>
               </div>
            
-              <div id="content-upper-main-1" class="span8">
-                <?php print $content['contentuppermain2']; ?>
-              </div>
+              
           
               <div id="content-middle-left" class="span8">
-                <div id="content-upper-middle-column1" class="span6">
+                <div id="content-upper-main-1" class="span12 next-row">
+                <?php print $content['contentuppermain2']; ?>
+              </div>
+                <div id="content-upper-middle-column1" class="span6 next-row">
                   <?php print $content['contentmiddlecolumn1']; ?>
                 </div>
                 <div id="content-upper-middle-column2" class="span6">
                   <?php print $content['contentmiddlecolumn2']; ?>
                 </div> 
-              </div>
-              <div id="content-lower" class="span8">
+                <div id="content-lower" class="span12">
                 <?php print $content['contentlowerfooter']; ?>
+                </div>
               </div>
-              <div id="content-upper-middle-sidebar" class="span4">
+              
+              <div id="content-upper-middle-sidebar" class="span4 float-right">
                   <?php print $content['contentmiddlesidebar']; ?>
               </div>
           </div>

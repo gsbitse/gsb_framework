@@ -37,7 +37,7 @@
                     <div id="content-upper-middle-sidebar" class="span12">
                       <?php print $content['contentuppersidebar']; ?>
                     </div>
-                    <div id="content-upper-middle-sidebar" class="span12">
+                    <div id="content-lower-middle-sidebar" class="span12">
                       <?php print $content['contentmiddlesidebar']; ?>
                     </div>
                   </div>
