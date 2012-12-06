@@ -18,29 +18,30 @@
 
 
 
-          <div id="content-below-wrapper" class="row-fluid span12">
+          <div id="content-below-wrapper" class="row-fluid span12 clear-row">
               <div id="content-upper-wrapper" class="row-fluid span8">
-                  <div id="content-upper-main" class="span12">
+                  <div id="content-upper-main" class="span12 clear-row">
                     <?php print $content['contentuppermain']; ?>
                   </div>
-                  <div id="content-lower-main" class="span12">
+                  <div id="content-lower-main" class="span12 clear-row">
                     <?php print $content['contentlowermain']; ?>
                   </div>
-                  <div id="content-upper-middle-column1" class="span6">
+                  <div id="content-upper-middle-column1" class="span6 clear-row">
                      <?php print $content['contentmiddlecolumn1']; ?>
                   </div>
-                  <div id="content-upper-middle-column2" class="span5">
+                  <div id="content-upper-middle-column2" class="span6">
                     <?php print $content['contentmiddlecolumn2']; ?>
                   </div>
                </div>
-                  <div id="content-sidebar" class="sidebar row-fluid span4">
-                    <div id="content-upper-middle-sidebar" class="span12">
+                <div id="content-sidebar" class="float-right span4">
+                    <div id="content-upper-middle-sidebar" class="span12 clear-row">
                       <?php print $content['contentuppersidebar']; ?>
                     </div>
-                    <div id="content-lower-middle-sidebar" class="span12">
+                    <div id="content-lower-middle-sidebar" class="span12 clear-row">
                       <?php print $content['contentmiddlesidebar']; ?>
                     </div>
-                  </div>
+                </div>
+              </div>
 
           </div>
 
