@@ -10,7 +10,7 @@
  */
 ?>
 
-<div class="row span9 panel-display gsb-standard-page-three clearfix <?php if (!empty($class)) { print $class; } ?>" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
+<div class="row span12 clear-row panel-display gsb-standard-page-three clearfix <?php if (!empty($class)) { print $class; } ?>" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
       
           
 
