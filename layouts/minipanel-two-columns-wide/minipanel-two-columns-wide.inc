@@ -6,7 +6,7 @@ $plugin = array(
   'theme' => 'minipanel-two-columns-wide',
   'css' => 'minipanel-two-columns-wide.css',
   'regions' => array(
-    'columnone' => t('columnone'),
-    'columntwo' => t('columntwo'),
+    'columnone' => t('Column One'),
+    'columntwo' => t('Column Two'),
   ),
 );
